@@ -2241,7 +2241,7 @@ const Language_s language_german = {
         .checking_dl = "Überprüfe heruntergeladene Datei...",
         .delete_sd = "Lösche von SD-Karte...",
         .download_themes = "Rufe Designs ab, bitte warten...",
-        .download_splashes = "Rufe Startbilschirme ab, bitte warten...",
+        .download_splashes = "Rufe Startbildschirme ab, bitte warten...",
         .download_badges = "Rufe Marken ab, bitte warten...",
         .download_preview = "Rufe Vorschau ab, bitte warten...",
         .download_bgm = "Rufe Hintergrundmusik ab, bitte warten...",
@@ -2449,7 +2449,7 @@ const Language_s language_german = {
     },
     .splashes =
     {
-        .no_splash_found = "Keine splash.bin oder splashbottom.bin gefunden.\nIst das ein Startbilschirm?",
+        .no_splash_found = "Keine splash.bin oder splashbottom.bin gefunden.\nIst das ein Startbildschirm?",
         .splash_disabled = "WARNUNG:\nStartbildschirme sind in der\nLuma-Konfigurationsdatei deaktiviert",
     },
     .themes =
