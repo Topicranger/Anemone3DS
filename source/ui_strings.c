@@ -2076,7 +2076,7 @@ const Language_s language_german = {
                     "\uE003 Designvorschau"
                 },
                 {
-                    "\uE004 Zu den Splashes",
+                    "\uE004 Zu den Startbildern",
                     "\uE005 QR-Code scannen"
                 },
                 {
@@ -2089,12 +2089,12 @@ const Language_s language_german = {
             .info_line = NULL,
             .instructions = {
                 {
-                    "\uE000 Splash installieren",
-                    "\uE001 Installierten Splash löschen"
+                    "\uE000 Startbild installieren",
+                    "\uE001 Inst. Startbild löschen"
                 },
                 {
                     "\uE002 Weiteres...",
-                    "\uE003 Splashvorschau"
+                    "\uE003 Startbildschirmvorschau"
                 },
                 {
                     "\uE004 Zu den Designs",
@@ -2117,8 +2117,8 @@ const Language_s language_german = {
                 "\uE07A Zufallsliste installieren"
             },
             {
-                "\uE07B Nur BGM installieren",
-                "\uE07C Ohne BGM installieren"
+                "\uE07B Nur Musik installieren",
+                "\uE07C Ohne Musik installieren"
             },
             {
                 NULL,
@@ -2201,19 +2201,19 @@ const Language_s language_german = {
     {
         .quit = "Drücke \uE005 um zu beenden",
         .thread_error = "Capture cam thread creation failed\nBitte melde das den Entwicklern",
-        .zip_not_theme_splash = "Heruntergeladedne ZIP ist weder\nSplash noch Design",
+        .zip_not_theme_splash = "Heruntergeladedne ZIP ist weder\nStartbildschirm noch Design",
         .file_not_zip = "Heruntergeladene Datei ist keine ZIP.",
         .download_failed = "Download fehlgeschlagen.",
-        .badge_question = "Design oder Splash nicht erkannt.\nIst das eine Marke?",
+        .badge_question = "Design oder Startbildschirm nicht erkannt.\nIst das eine Marke?",
     },
     .draw = 
     {
         .theme_mode = "Design-Modus",
-        .splash_mode = "Splash-Modus",
+        .splash_mode = "Startbildschirm-Modus",
         .no_themes = "Kein Design gefunden",
-        .no_splashes = "Kein Splash gefunden",
+        .no_splashes = "Keinen Startbildschirm gefunden",
         .qr_download = "Drücke \uE005 um per QR herunterzuladen",
-        .switch_splashes = "Oder \uE004 um zu den Splashes zu wechseln",
+        .switch_splashes = "Oder \uE004 um zu den Startbildschirmen zu wechseln",
         .switch_themes = "Oder \uE004 um zu den Designs zu wechseln",
         .quit = "Oder        um zu beenden",
         .start_pos = 135, // Adjust x pos of start glyph to line up with quit string
@@ -2221,7 +2221,7 @@ const Language_s language_german = {
         .selected = "Gewählt:",
         .sel = "Sel.:",
         .tp_theme_mode = "ThemePlaza Design-Modus",
-        .tp_splash_mode = "ThemePlaza Splash-Modus",
+        .tp_splash_mode = "ThemePlaza Startbildschirm-Modus",
         .tp_badge_mode = "ThemePlaza Marken-Modus",
         .search = "Suchen...",
         .page = "Seite:",
@@ -2229,22 +2229,22 @@ const Language_s language_german = {
         .warn_continue = "Drücke \uE000 um fortzufahren.",
         .yes_no = "\uE000 Ja   \uE001 Nein",
         .load_themes = "Lade Designs, bitte warten...",
-        .load_splash = "Lade Splashes, bitte warten...",
+        .load_splash = "Lade Startbildschirme, bitte warten...",
         .load_icons = "Lade Symbole, bitte warten...",
-        .install_splash = "Installiere Splash...",
-        .delete_splash = "Lösche installierten Splash...",
+        .install_splash = "Installiere Startbildschirm...",
+        .delete_splash = "Lösche installierten Startbildschirm...",
         .install_theme = "Installiere ein einzelnes Design...",
         .install_shuffle = "Installiere Zufallsdesigns...",
-        .install_bgm = "Installiere nur BGM eines Designs...",
-        .install_no_bgm = "Installiere Design ohne BGM...",
+        .install_bgm = "Installiere nur Hintergrundmusik eines Designs...",
+        .install_no_bgm = "Installiere Design ohne Hintergrundmusik...",
         .downloading = "Lade herunter...",
         .checking_dl = "Überprüfe heruntergeladene Datei...",
         .delete_sd = "Lösche von SD-Karte...",
         .download_themes = "Rufe Designs ab, bitte warten...",
-        .download_splashes = "Rufe Splashes ab, bitte warten...",
+        .download_splashes = "Rufe Startbilschirme ab, bitte warten...",
         .download_badges = "Rufe Marken ab, bitte warten...",
         .download_preview = "Rufe Vorschau ab, bitte warten...",
-        .download_bgm = "Rufe BGM ab, bitte warten...",
+        .download_bgm = "Rufe Hintergrundmusik ab, bitte warten...",
         .dump_single = "Dumpe Design, bitte warten...",
         .dump_all_official = "Dumpe offizielle Designs, bitte warten...",
         .dump_badges = "Dumpe installierte Marken, bitte warten...",
@@ -2280,7 +2280,7 @@ const Language_s language_german = {
         .camera_broke = "Deine Kamera scheint ein Problem zu haben,\nscannen von QR-Codes nicht möglich.",
         .too_many_themes = "Du hast zu viele Designs ausgewählt.",
         .not_enough_themes = "Du hast nicht genug Designs ausgewählt.",
-        .uninstall_confirm = "Möchtest du den installierten Splash\nwirklich löschen?",
+        .uninstall_confirm = "Möchtest du den installierten Startbildschirm\nwirklich löschen?",
         .delete_confirm = "Möchtest du das wirklich löschen?",
     },
     .remote =
@@ -2342,12 +2342,12 @@ const Language_s language_german = {
             .info_line = NULL,
             .instructions = {
                 {
-                    "\uE000 Splash herunterladen",
+                    "\uE000 Startbild herunterl.",
                     "\uE001 Zurückgehen"
                 },
                 {
                     "\uE002 Weiteres...",
-                    "\uE003 Splashvorschau"
+                    "\uE003 Startbildschirmvorschau"
                 },
                 {
                     "\uE004 Vorherige Seite",
@@ -2396,7 +2396,7 @@ const Language_s language_german = {
                 },
                 {
                     "\uE004 Zu den Marken",
-                    "\uE005 Zu den Splashes"
+                    "\uE005 Zu den Startbildern"
                 },
                 {
                     "Beenden",
@@ -2437,7 +2437,7 @@ const Language_s language_german = {
                     "\uE07C Ohne Cache neu laden"
                 },
                 {
-                    "\uE004 Zu den Splashes",
+                    "\uE004 Zu den Startbildern",
                     "\uE005 Zu den Designs"
                 },
                 {
@@ -2449,8 +2449,8 @@ const Language_s language_german = {
     },
     .splashes =
     {
-        .no_splash_found = "Keine splash.bin oder splashbottom.bin gefunden.\nIst das ein Splash?",
-        .splash_disabled = "WARNUNG:\nSplashes sind in der Luma-Config deaktiviert",
+        .no_splash_found = "Keine splash.bin oder splashbottom.bin gefunden.\nIst das ein Startbilschirm?",
+        .splash_disabled = "WARNUNG:\nStartbildschirme sind in der\nLuma-Konfigurationsdatei deaktiviert",
     },
     .themes =
     {
